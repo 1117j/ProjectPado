@@ -1,0 +1,595 @@
+https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap
+
+*{
+   background-color: rgb(248, 247, 247);
+   margin: auto;
+   text-align: center;
+   font-family: Nanum Gothic, sans-serif;
+   color: rgb(97, 97, 97);
+}
+
+
+
+/* 
+
+여기서부터 헤더!!!!!!!!!!!!
+
+ */
+ 
+#header{
+	position: relative;
+	height: 80px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 auto;
+	margin-bottom : 1px solid rgb(51,51,51);
+	background-color: white;
+	
+}
+
+#logoSide{
+	background-color: white;
+}
+
+ #logo{
+	display: inline-block;
+	width: 180px;
+	height: 80px;
+	vertical-align: top;
+	float: left;
+	background-color: white;
+	position: absolute;
+    z-index: 99;
+	left: 20px;
+} 
+
+
+#headermenu{
+	background-color: white;
+	float: right;
+	overflow: hidden;
+	position:relative;
+	right:50px;
+	padding: 20px;
+	
+}
+
+.navIcon{
+	background-color: white;
+	width: 30px;
+}
+
+
+
+
+/*  
+
+로그인 후 보이는 메인페이지!
+boardList.jsp페이지
+
+*/
+
+
+#writeboard{
+   margin: auto;
+   width:614px;
+   height:72px;
+   margin-top: 40px;
+   margin-bottom: 13px;
+   background-color: white;
+   border: 0.3px solid lightsteelblue ;
+   }
+   
+#writeprofileImg{
+   width: 32px;
+   height: 32px;
+   margin-top: 14px;
+   margin-left: 30px;
+   margin-right: 14px;
+   border-radius: 100%;
+   float:left;
+}   
+
+
+#boardtext{
+    background-color: white;
+    width: 500px;
+    border-radius: 5px;
+    border: 0.5px solid lightgrey ;
+    position:relative;
+	float: right;
+	top:6px;
+	right: 15px;
+   }
+   
+   /* 
+   보드리스트가 없을때 나오는 글쓰기 화면
+   
+    */
+    
+    
+#first_main_pageCore{
+   padding-top: 10px;
+
+   }
+   
+#first_main_pageFeed{
+   padding-top: 10px;
+   width : 614px;
+   margin-bottom: 60px;
+   margin: auto;
+}
+   
+#first_main_pageImgArea{
+   width:614px;
+   height: 500px;
+   background-color: white;
+   text-align: center;
+   border: 0.3px solid lightsteelblue ;
+   
+}       
+    
+#first_main_pageFirstCoreIcon{
+   margin-top: 120px; 
+   opacity: 0.5;
+
+} 
+
+#first_main_pageFirstCoreText{ 
+   font-size: 13px;
+   margin-top: 0.5%; 
+   margin-bottom: 1%;
+   font-size: 15px;  
+   font-weight: lighter; 
+   line-height: 24px;
+
+}   
+
+#first_main_pageFirstCoreButton{
+	 margin-top: 4%; 
+   border: none; 
+   width: 140px; 
+   height: 42px; 
+   border-radius: 8px;
+   color: white; 
+   background-color: rgb(138, 174, 244);
+   font-size: 13px;
+}
+
+
+
+
+/*  
+
+마이페이지
+*/
+
+/*  내정보수정 써있는 한칸과 테이블*/
+.regChkCore{
+	background-color: white;
+	text-align: center;
+	font-family: Nanum Gothic;
+}
+
+/* 내정보수정 전체 영역 */
+#regChkBox{
+   margin: auto;
+   border: 0.5px solid lightsteelblue;
+   width: 614px;
+   height: 400px;
+   margin-top: 40px;
+   border-radius: 10px;
+   background-color: white;
+   
+}
+
+
+/* 내정보수정밑에 줄 */
+#regChkBox>hr{
+	border: 0.1px solid rgb(141, 141, 141) ;   
+	opacity: 0.1;
+	        	
+}
+
+/* 테이블 칸칸이 */
+.tdregChkCore{
+	background-color:white;
+	line-height: 300%;
+}
+#editForm{
+	background-color:white;
+		line-height: 300%;
+	
+}
+.tableregChkCore{
+	position:relative;
+	left: 120px;
+	border:1px solid red;
+	text-align: center;
+
+}
+
+/* body{
+   margin: 0px;
+}
+
+header{
+   margin: auto;
+   width: 100%;
+   height: 54px;
+   overflow: hidden;
+    border:0.5px solid red ;
+    background-color: white;
+}
+
+
+#box{
+   margin: auto;
+   border: 0.5px solid lightsteelblue;
+   width: 614px;
+   height: 500px;
+   margin-top: 100px;
+}
+
+#box>hr{
+border: 0.1px solid rgb(141, 141, 141) ;   
+opacity: 0.1;
+}
+
+.white{
+   background-color: white;
+   border-radius: 10px;
+}
+
+
+h3{
+   text-align: center;
+}
+
+
+
+
+
+table.white{
+margin-left: 150px;
+margin-top: 30px;
+}
+
+
+.inputSize{
+      width: 300px;
+      border: 0.5px solid rgb(219, 219, 219);
+      border-radius: 3px;
+      height: 20px;
+      margin-top: 7px;
+      background-color: white;
+}
+
+#mphoto{
+   margin-top: 7px;
+   background-color: white;
+
+}
+
+#logo{
+   float:left;
+   margin-top:-22px;
+   margin-left: -8px;
+   border: 0.5px solid red;
+   width: 90px;
+   height: 70px;
+   background-color: white;
+
+}
+
+#logoSide{
+   border: 0.5px solid red;
+   margin: auto;
+   width: 614px;
+}
+
+#regForm>tbody>tr{
+   margin: 5px;
+   padding: 5px;
+}
+
+
+.joinButton{
+   margin:5px;
+   background-color: white;
+  
+   font-size: 14px;
+   padding-top: 35px;
+   padding-left: 103px;
+
+}
+
+
+#tdwhite{
+   margin:5px;
+   background-color: white;
+   padding: 5px;
+   font-size: 14px;
+
+}
+
+
+.okButton{
+   width: 60px;
+   background-color: rgb(203, 225, 255);
+   border: none;
+   border-radius: 3px;
+   height: 26px;
+}
+
+.closeButton{
+   width: 60px;
+   background-color: rgb(238, 238, 238);
+   border: none;
+   border-radius: 3px;
+   height: 26px;
+
+}
+
+header{
+   margin: auto;
+   width: 100%;
+   height: 54px;
+   overflow: hidden;
+    border:0.5px solid red ;
+    background-color: white;
+}
+
+
+
+nav>ul>li{
+   float:right;
+   padding: 5px 20px;
+   list-style: none;
+   background-color: white;
+
+}
+
+span{
+   margin-top: 0px;
+   margin-left: 0px;
+   background-color: white;
+   border: 0.5px solid red;
+}
+
+#logo{
+   float:left;
+   margin-top:-22px;
+   margin-left: -8px;
+   border: 0.5px solid red;
+   width: 90px;
+   height: 70px;
+   background-color: white;
+
+}
+
+#logoSide{
+   border: 0.5px solid red;
+   margin: auto;
+   width: 614px;
+}
+
+#core{
+   padding-top: 10px;
+   background-color: white;
+   }
+
+
+
+#feed{
+      padding-top: 10px;
+
+   overflow: hidden;
+
+   border : 0.5px solid red;
+   width : 614px;
+   
+   
+   margin-bottom: 60px;
+   margin: auto;
+}
+
+#boardInfo{
+   width:594px;
+   border : 0.5px solid red;
+   height: 40px;
+   background-color: white;
+   padding: 10px;
+   position: relative;
+   border: 0.3px solid lightsteelblue;
+   
+
+
+}
+#iconBackground{
+   background-color: white;
+   width: 22px;
+}
+span{
+   background-color: white;
+   margin-top: 10px;
+}
+#site{
+   
+   position: absolute;
+   right: 14px;
+   bottom: 10px;
+}
+#feedprofileImg{
+   width: 32px;
+   height: 32px;
+   margin-top: 4px;
+   margin-left: 4px;
+   margin-right: 14px;
+   float:left;
+   border-radius: 100%;
+   background-color: white;
+}
+
+#writeprofileImg{
+   width: 32px;
+   height: 32px;
+   margin-top: 14px;
+   margin-left: 14px;
+   margin-right: 14px;
+   border-radius: 100%;
+   float:left;
+}
+
+
+#daydate{
+   font-size: 10px;
+   border: 0.5px solid red;
+   background-color: white;
+
+}
+
+
+#ImgArea{
+   width:614px;
+   border : 0.5px solid red;
+   background-color: white;
+   text-align: center;
+
+   height: 343px;
+   border-left: 0.3px solid lightsteelblue ;
+   border-right:  0.3px solid lightsteelblue;
+
+}
+#boardImg{
+   
+   max-width: 100%;
+   height: auto;
+   max-height: 100%;
+   width: auto;
+   
+}
+
+
+#boardContents{
+height: 30px;
+width: 614px;
+background-color: white;
+border-left: 0.3px solid lightsteelblue ;
+   border-right:  0.3px solid lightsteelblue;
+}
+
+#boardText{
+	width: 614px;
+   background-color: white;
+   border-left: 0.3px solid lightsteelblue ;
+   border-right:  0.3px solid lightsteelblue;
+}
+
+
+
+#likeIcon{
+   width: 20px;
+   background:  opacity 0;
+
+   margin-left: 10px;
+}
+#likeIconBackground{
+   background-color: white;
+   width: 28px;
+
+}
+
+
+
+.iconSize{
+   float: right;
+   width: 20px;
+   height: 20px;
+   padding-right: 15px;
+background-color: white;
+
+}
+#commentList{
+   width:614px;
+   border : 0.5px solid red;
+   background-color: white;
+   height: auto;
+   border-left: 0.3px solid lightsteelblue ;
+   border-right:  0.3px solid lightsteelblue;
+   font-size: 12px;
+
+}
+
+#commentList>div{
+   margin: 1px;
+   background-color: white;
+}
+
+#comment{
+   width:614px;
+   border : 0.5px solid red;
+   background-color: white;
+   height: 56px;
+   border: 0.3px solid lightsteelblue;
+
+}
+
+
+#boardtext{
+   float:left;
+   margin-top: 10px;
+   background-color: white;
+   width: 535px;
+   resize: none;
+   border-color: lightsteelblue;
+   border-radius: 5px;
+}
+
+#writeboard{
+   margin: auto;
+   width:614px;
+   height:72px;
+   border : 0.5px solid red;
+   margin-top: 25px;
+   margin-bottom: 13px;
+   background-color: white;
+   border: 0.3px solid lightsteelblue ;
+   
+}
+
+#commentText{
+   border: 0.5px;
+   margin-left: 15px;
+   margin-top: 20px;
+   height: 10px;
+   background-color: white;
+
+width: 520px;
+
+}
+
+
+#postButton{
+   margin-left: 15px;
+   border-style: none;
+   background: white;
+   color: lightsteelblue;
+   font-size: 15px;
+
+}
+
+nav>ul>li>a{
+   background-color: white;
+
+}
+nav>ul>li{
+   
+   padding: 6px;
+}
+
+.navIcon{
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+} */
