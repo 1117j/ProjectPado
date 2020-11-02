@@ -21,10 +21,6 @@ JSP Team Project(SNS)
 
 - JSP
 
-- API 
-
-   `kakao 주소 API` `kakao map API` `summernote`
-
 - WAS - `Tomcat8`
 
 - AWS 배포 
@@ -36,14 +32,14 @@ JSP Team Project(SNS)
 <br>
 
 ### 구현 - 소스코드
-* 회원관리 코드
-    - [Controller](https://github.com/1117j/ProjectPlanIt/tree/main/PlanIt/src/main/java/com/aia/it/member/controller)
+* 프로젝트 코드(member)
+    - [Front Controller](https://github.com/1117j/ProjectPado/blob/main/pado/src/controller)
     
-    - [Service](https://github.com/1117j/ProjectPlanIt/tree/main/PlanIt/src/main/java/com/aia/it/member/service)
+    - [Service](https://github.com/1117j/ProjectPado/tree/main/pado/src/member/service)
     
-    - [Dao](https://github.com/1117j/ProjectPlanIt/tree/main/PlanIt/src/main/java/com/aia/it/member/service)
+    - [Dao](https://github.com/1117j/ProjectPado/tree/main/pado/src/member/dao)
     
-    - [View](https://github.com/1117j/ProjectPlanIt/tree/main/PlanIt/src/main/webapp/WEB-INF/views/member)
+    - [View](https://github.com/1117j/ProjectPado/tree/main/pado/WebContent/WEB-INF/views)
 
 <hr />
 
