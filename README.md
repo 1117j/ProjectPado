@@ -4,10 +4,8 @@ JSP Team Project(SNS)
 
 >소셜 네트워크 서비스 팀 프로젝트
 
-
-
 <br>
-<br>
+
 
 ### 기술 / 구조 
 
@@ -29,7 +27,7 @@ JSP Team Project(SNS)
 
 
 <br>
-<br>
+
 
 ### 구현 - 소스코드
 
