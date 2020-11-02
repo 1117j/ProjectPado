@@ -25,10 +25,6 @@ JSP Team Project(SNS)
 
    `kakao 주소 API` `kakao map API` `summernote`
 
-- RESTful API 구조
-
-  서버와 클라이언트 통신을 위한 REST 인터페이스 구현
-
 - WAS - `Tomcat8`
 
 - AWS 배포 
